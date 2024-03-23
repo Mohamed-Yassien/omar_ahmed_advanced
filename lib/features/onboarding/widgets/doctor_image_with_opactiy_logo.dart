@@ -33,12 +33,14 @@ class DoctorImageWithOpacityLogo extends StatelessWidget {
           ),
         ),
         Positioned(
-          bottom: 30,
+          bottom: 20.h,
           right: 0,
           left: 0,
           child: Text(
             'Best Doctor\nAppointment App',
-            style: AppStyles.font32BlueWieght700,
+            style: AppStyles.font32BlueWieght700.copyWith(
+              height: 1.3,
+            ),
             textAlign: TextAlign.center,
           ),
         ),
